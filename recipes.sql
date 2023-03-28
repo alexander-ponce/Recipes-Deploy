@@ -65,7 +65,7 @@ CREATE TABLE `users` (
   `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -74,7 +74,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Alex','Powers','alex@email.com','$2b$12$SgfwKnzmYOedVhcAZ3LS2.DZtwpGsJjRsvXN055v5ljSWch/BNB/q','2023-03-18 19:18:46','2023-03-18 19:18:46'),(2,'Alexander','Awesome','alexander@email.com','$2b$12$FMEdSI5vaDtBZ.vzofFi9edYTan6jV/8jIpmeMgSJ1sQuTs1H2Osi','2023-03-18 19:32:38','2023-03-18 19:32:38'),(3,'Cam','The Man','cam@email.com','11111111','2023-03-19 20:29:12','2023-03-19 20:29:12');
+INSERT INTO `users` VALUES (1,'Alex','Powers','alex@email.com','$2b$12$SgfwKnzmYOedVhcAZ3LS2.DZtwpGsJjRsvXN055v5ljSWch/BNB/q','2023-03-18 19:18:46','2023-03-18 19:18:46'),(2,'Alexander','Awesome','alexander@email.com','$2b$12$FMEdSI5vaDtBZ.vzofFi9edYTan6jV/8jIpmeMgSJ1sQuTs1H2Osi','2023-03-18 19:32:38','2023-03-18 19:32:38'),(3,'Cam','The Man','cam@email.com','$2b$12$SgfwKnzmYOedVhcAZ3LS2.DZtwpGsJjRsvXN055v5ljSWch/BNB/q','2023-03-19 20:29:12','2023-03-26 20:52:10'),(4,'David','Guy','david@email.com','11111111','2023-03-20 16:50:02','2023-03-20 16:50:02'),(5,'Fredy','Man','fredy@email.com','$2b$12$9/200WL.MNxOO1ttbOK3J.HNHz7mgHPYN4TPts0KfnhzAarzG6EMu','2023-03-20 16:52:28','2023-03-20 16:52:28'),(6,'Mario','Lopez','mario@email.com','$2b$12$FMEdSI5vaDtBZ.vzofFi9edYTan6jV/8jIpmeMgSJ1sQuTs1H2Osi','2023-03-20 21:40:13','2023-03-26 20:52:11');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -87,4 +87,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-20 11:48:50
+-- Dump completed on 2023-03-26 20:55:31

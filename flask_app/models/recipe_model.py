@@ -34,7 +34,7 @@ class Recipes:
     def get_all_recipes(cls):
         query= """
             SELECT * FROM recipes
-            JOIN Users
+            JOIN users
             Where recipes.user_id = users.id
             ORDER BY recipes.id DESC;
             
